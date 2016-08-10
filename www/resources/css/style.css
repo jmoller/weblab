@@ -245,3 +245,93 @@ section h1:after {
 .number {
     font-family: 'Arial';
 }
+
+/* SECTION PRICING */
+
+.section-pricing {
+    padding: 80px 0;
+    background: #f7f9f8;
+}
+
+.pricing-box {
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+    border-radius: 5px;
+    border: 1px solid rgba(204, 204, 204, 0.3);
+    position: relative;
+}
+
+.pricing-box:hover {
+    box-shadow: 0px 0px 10px 3px rgba(119, 119, 119, 0.5);
+    z-index: 10;
+}
+
+.section-pricing .col {
+    margin: 0px;
+}
+
+.pricing-box img {
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.pricing-box h2 {
+    margin-bottom: 40px;
+}
+
+.pricing-box .price {
+    color: #f7c351;
+    font-size: 250%;
+    margin-bottom: 40px;
+}
+
+.price-tag {
+    font-size: 60%;
+}
+
+.plan-features {
+    list-style: none;
+}
+
+.plan-features li {
+    padding: 30px 0px;
+}
+
+
+
+/* BUTTONS */
+
+.btn {
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    border-radius: 50px;
+    font-size: 110%;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    -webkit-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+    border: 2px solid transparent;
+}
+
+.get-started {
+    background: #fff;
+    border: 2px solid #3a3144;
+    color: #3a3144;
+}
+
+.get-started:hover {
+    background: #2a3144;
+    color: #fff;
+}
+
+.active {
+    background: #2a3144;
+    color: #fff;
+}
