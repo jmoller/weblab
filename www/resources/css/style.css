@@ -411,3 +411,88 @@ textarea {
     width: 70%;
     margin: 0 15%;
 }
+
+textarea {
+    height: 140px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background: #2a3144;
+    height: auto;
+    padding: 60px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-title + *{
+    
+    margin-top: 40px;
+}
+
+.footer-title{
+    position: relative;
+    width: 150px;
+    margin: 20px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    text-align: center
+}
+.footer-title:after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-top: 2px solid #f8c34f;
+    border-right: 2px solid #f8c34f;
+}
+.span-title:before {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    border-bottom: 2px solid #f8c34f;
+    border-left: 2px solid #f8c34f;
+}
+
+.contact-list  {
+    list-style: none;
+        
+}
+
+.contact-list li {
+    padding: 10px;
+    font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.contact-list li i {
+    margin-right: 5px;
+}
+
+footer p {
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 0.2px;
+}
+
+footer img {
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+    right: 100px;
+    top: -20px;
+    transform: rotate(-45deg);
+    opacity: 0.1;
+    height: 450px
+}
