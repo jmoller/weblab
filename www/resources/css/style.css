@@ -191,7 +191,9 @@ h2 {
     padding-top: 15px;
 }
 
-
+.section-workflow h1:after {
+    margin: 30px auto;
+}
 /* SECTION SERVICES */
 
 .section-services {
@@ -274,7 +276,7 @@ section h1:after {
 }
 
 .pricing-box img {
-    height: 150px;
+    height: 100px;
     margin-bottom: 25px;
 }
 
@@ -334,4 +336,78 @@ section h1:after {
 .active {
     background: #2a3144;
     color: #fff;
+}
+
+/* SECTION CONTACT US*/
+
+.section-contact {
+    background: #fff;
+}
+
+/* SVG CONTAINER*/
+
+.svg-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* FORM ELEMENTS */
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.small {
+    padding: 10px 10px;
+    width: 40%;
+    font-size: 80%;
+    float: right;
+    cursor: pointer;
+
+}
+
+.small:hover {
+    background: #fff;
+    border: 2px solid #3a3144;
+    color: #3a3144;
+}
+
+
+.form-group {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.label-control {
+    padding: 7px;
+
+}
+
+.label-control label {
+    float: right;
+}
+
+
+
+.sky-rocket {
+    height: 150px;
+}
+
+.section-contact .row .col:nth-child(2) {
+    text-align: center;
+}
+
+.sky-rocket-container {
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
 }
