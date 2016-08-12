@@ -224,6 +224,7 @@ section h1:after {
     background-size: cover;
     height: 500px;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .section-technologies h1 {
